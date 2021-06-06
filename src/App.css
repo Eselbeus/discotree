@@ -1,10 +1,18 @@
 .App {
   text-align: center;
-  color: #eee;
+  color: #111;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 #root {
-  background: #000;
+  background: #FFF;
+}
+
+.nav-bar {
+  position: fixed;
+  background: white;
+  width: 100%;
+  z-index: 4;
 }
 
 .nav {
@@ -14,14 +22,17 @@
 
 .nav-elem {
   text-decoration: none;
-  padding: 2rem;
-  color: #eee;
-  font-size: 28px;
-  letter-spacing: 1.25px;
+  padding: 1rem;
+  color: #111;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  vertical-align: middle;
 }
 
 .nav-elem:hover {
-  color: #ccc;
+  color: #f87605;
+  cursor: pointer;
 }
 
 .nav-mobile {
@@ -52,4 +63,240 @@
   .nav-bar > div {
     display: none;
   }
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.main-title {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  top: 200px;
+  left: 200px;
+  position: absolute;
+  z-index: 3;
+}
+
+.footer {
+  color: #FFF;
+  background-color: #F87605E6;
+}
+
+.footer-text {
+  text-decoration: none;
+  color: inherit;
+}
+
+.whatwedo {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.whatwedo-photo-container {
+  display: flex;
+}
+
+.whatwedo-panel {
+  width: 285px;
+  color: #FFFFFFCC;
+}
+
+.whatwedo-image {
+  width: 285px;
+  object-fit: scale-down;
+}
+
+.variety-shows {
+  background: #9a69cb;
+}
+
+.comedy {
+  background: #e81c62;
+}
+
+.music {
+  background: #f87605;
+}
+
+.party {
+  background: #6639b6;
+}
+.whatwedo {
+  width: 100%;
+}
+
+.whatwedo-text {
+  text-align: center;
+  padding: 2.14rem 2.14rem;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.whatwedo-intro {
+  margin-left: 140px;
+  margin-right: 140px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.whatwedo-photo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.whatwedo-text-container {
+  margin: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.header-text {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.special-text {
+  color: #f87605;
+  font-size: 11px;
+}
+
+.whyus {
+  background: #f87605;
+  color: #FFFFFFCC;
+  display: flex;
+  justify-content: center;
+}
+
+.whyus-container {
+  display: flex;
+}
+
+.whyus-text {
+  width: 50%;
+  margin-top: 5rem;
+  margin-right: 5%;
+  margin-left: 5%;
+  line-height: 1.6;
+}
+
+.whyus-text h1 {
+  color: #FFF;
+  font-weight: 700;
+}
+
+.whyus-text p {
+  font-weight: 400;
+}
+
+.rob {
+  width: 50%;
+  margin: 5rem;
+  object-fit: scale-down;
+}
+
+.bullet {
+  background: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.bullet-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.event {
+  color: #FFF;
+  background: #f87605;
+}
+
+.ticket-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.inner-ticket-container {
+  display: flex;
+}
+
+.inner-ticket-container h2 {
+  padding: 1rem;
+}
+
+.ticket-button {
+  margin-top: 2rem;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  background: #f87605;
+  border: 1px solid #FFF;
+  padding: 0.5rem 1rem;
+}
+
+.ticket-button:hover {
+  background: #FFF;
+  color: #000;
+}
+
+.component-footer {
+  height: 100px;
+  width: 100%;
+  background: #FFF;
+}
+
+.fill {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #f87605;
+  border-right: 100vw solid transparent;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.gallery-main {
+  display: grid;
+  grid-template-columns: 310px 310px 310px;
+  grid-template-rows: 235px 235px;
+  justify-content: center;
+}
+
+.gallery-lower {
+  display: grid;
+  grid-template-columns: 260px 260px 260px 260px;
+  justify-content: center;
+}
+
+.gallery-img {
+  width: 300px;
+}
+
+.gallery-img-l {
+  width: 250px;
+}
+
+.about-wrapper {
+  padding: 1rem;
+  margin-left: 140px;
+  margin-right: 140px;
+  line-height: 1.6;
+}
+
+.about {
+  color: white;
+  background: #1d1a37;
+}
+
+.nav-logos:hover {
+  opacity: 50%;
 }

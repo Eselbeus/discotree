@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { Link } from "react-scroll"
 import HamburgerMenu from 'react-hamburger-menu';
+import logo from "../assets/DISCOTREE_LOGO_FINAL1_1x.png"
+import ig from "../assets/ig-icon.png"
 import '../App.css';
 
 class Nav extends React.Component {
@@ -32,9 +35,13 @@ class Nav extends React.Component {
   mobileNav = () => {
     return (
       <nav className='hamburgerDropDown nav-mobile'>
-        <NavLink className="nav-elem" onClick={this.handleClick.bind(this)} to="/">Home</NavLink>
-        <NavLink className="nav-elem" onClick={this.handleClick.bind(this)} to="/music">Music</NavLink>
-        <a className="nav-elem" target="_blank" rel="noreferrer" href="http://symfinity.bandcamp.com">Example Store</a>
+        <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="home" spy={true} smooth={true} offset={-16} duration={250}>HOME</Link>
+        <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="whatwedo" spy={true} smooth={true} offset={-16} duration={250}>WHAT WE DO</Link>
+        <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="about" spy={true} smooth={true} offset={-16} duration={250}>ABOUT</Link>
+        <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="events" spy={true} smooth={true} offset={-16} duration={250}>EVENTS</Link>
+        <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="whyus" spy={true} smooth={true} offset={-16} duration={250}>WHY US</Link>
+        <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="gallery" spy={true} smooth={true} offset={-16} duration={250}>GALLERY</Link>
+        <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="contact" spy={true} smooth={true} offset={-16} duration={250}>CONTACT</Link>
       </nav>
     )
   }
@@ -43,9 +50,15 @@ class Nav extends React.Component {
     return(
       <div className="nav-bar">
         <nav className="nav">
-          <NavLink className="nav-elem" to="/">Home</NavLink>
-          <NavLink className="nav-elem" to="/music">Music</NavLink>
-          <a className="nav-elem" target="_blank" rel="noreferrer" href="https://symfinity.bandcamp.com/">Example Store</a>
+          <Link className="nav-elem nav-logos" activeClass="active" to="home" spy={true} smooth={true} offset={-128} duration={250}><img src={logo}/></Link>
+          <Link className="nav-elem" activeClass="active" to="home" spy={true} smooth={true} offset={-128} duration={250}>HOME</Link>
+          <Link className="nav-elem" activeClass="active" to="whatwedo" spy={true} smooth={true} offset={-128} duration={250}>WHAT WE DO</Link>
+          <Link className="nav-elem" activeClass="active" to="about" spy={true} smooth={true} offset={-128} duration={250}>ABOUT</Link>
+          <Link className="nav-elem" activeClass="active" to="events" spy={true} smooth={true} offset={-128} duration={250}>EVENTS</Link>
+          <Link className="nav-elem" activeClass="active" to="whyus" spy={true} smooth={true} offset={-128} duration={250}>WHY US</Link>
+          <Link className="nav-elem" activeClass="active" to="gallery" spy={true} smooth={true} offset={-128} duration={250}>GALLERY</Link>
+          <Link className="nav-elem" activeClass="active" to="contact" spy={true} smooth={true} offset={-128} duration={250}>CONTACT</Link>
+          <img className="nav-elem nav-logos" src={ig}/>
         </nav>
         { this.state.open ?  this.mobileNav() : this.displayHamburgerMenu()}
       </div>
