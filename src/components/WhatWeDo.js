@@ -18,7 +18,7 @@ class WhatWeDo extends React.Component {
   componentDidMount() {
     let image = document.getElementsByClassName("variety-show-images")[0];
     let currentPos = 0;
-    let images = [vs, vs2, vs3]
+    let images = [vs, mus, mus2]
       function varietyShowPhotos() {
          if (++currentPos >= images.length)
              currentPos = 0;
@@ -38,13 +38,13 @@ class WhatWeDo extends React.Component {
 
     let imageParty = document.getElementsByClassName("party-images")[0];
     let currentPosParty = 0;
-    let imagesParty = [pp, pp2, pp3]
+    let imagesParty = [pp, pp2, pp3, vs2, vs3]
       function partyPhotos() {
          if (++currentPosParty >= imagesParty.length)
              currentPosParty = 0;
          imageParty.src = imagesParty[currentPosParty];
       }
-    setInterval(partyPhotos, 2750);
+    setInterval(partyPhotos, 2000);
   }
 
   render() {
