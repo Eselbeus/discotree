@@ -7,7 +7,6 @@ function Home(){
   return(
     <div className='home' id="home">
       <img className="banner" src={banner}/>
-      
     </div>
   )
 }
