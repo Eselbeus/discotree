@@ -19,7 +19,7 @@ function Gallery(){
         <img className="gallery-img" src={g4}/><img className="gallery-img" src={g5}/><img className="gallery-img" src={g6}/>
       </div>
       <div className="gallery-lower">
-        <img className="gallery-img-l" src={g7}/><img className="gallery-img-l" src={g8}/><img className="gallery-img-l" src={g8}/>
+        <img className="gallery-img-l" src={g7}/><img className="gallery-img-l" src={g8}/><img className="gallery-img-l" src={g9}/>
         <img className="gallery-img-l" src={g10}/>
       </div>
     </div>

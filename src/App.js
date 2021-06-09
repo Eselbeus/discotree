@@ -22,8 +22,8 @@ function App() {
       <WhatWeDo />
       <Events />
       <WhyUs />
-      <Gallery />
       <About />
+      <Gallery />
       <Contact />
       <Footer />
     </div>
