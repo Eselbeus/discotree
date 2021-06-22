@@ -6,6 +6,7 @@
 
 #root {
   background: #FFF;
+  overflow-x: hidden;
 }
 
 .nav-bar {
@@ -328,14 +329,19 @@
 .gallery-main {
   display: grid;
   grid-template-columns: 310px 310px 310px;
-  grid-template-rows: 235px 235px;
+  grid-template-rows: 235px 235px 235px;
   justify-content: center;
 }
 
 .gallery-lower {
   display: grid;
   grid-template-columns: 260px 260px 260px 260px;
+  grid-template-rows: 343px 343px;
   justify-content: center;
+}
+
+.gallery-bottom {
+  padding: 5px;
 }
 
 .gallery-img {
@@ -350,14 +356,14 @@
   .gallery-main {
     display: grid;
     grid-template-columns: 310px 310px;
-    grid-template-rows: 235px 235px 235px;
+    grid-template-rows: 235px 235px 235px 235px 235px;
     justify-content: center;
   }
 
   .gallery-lower {
     display: grid;
     grid-template-columns: 260px 260px;
-    grid-template-rows: 343px 343px;
+    grid-template-rows: 343px 343px 343px 343px;;
     justify-content: center;
   }
 }
@@ -366,14 +372,14 @@
   .gallery-main {
     display: grid;
     grid-template-columns: 310px;
-    grid-template-rows: 235px 235px 235px 235px 235px 235px;
+    grid-template-rows: 235px 235px 235px 235px 235px 235px 235px 235px 235px;
     justify-content: center;
   }
 
   .gallery-lower {
     display: grid;
     grid-template-columns: 260px;
-    grid-template-rows: 343px 343px 343px 343px;
+    grid-template-rows: 343px 343px 343px 343px 343px 343px 343px;
     justify-content: center;
   }
 }
