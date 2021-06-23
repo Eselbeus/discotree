@@ -11,7 +11,7 @@ function Event(){
           <img src={tickets}/>
           <h2>NEED TICKETS?</h2>
         </div>
-        <a href="https://www.eventbrite.com/e/the-disco-tree-variety-show-tickets-150788814403?aff=ebdssbdestsearch"><button className="ticket-button">Get Tickets</button></a>
+        <a href="https://www.eventbrite.com/o/disco-tree-entertainment-32953626885?aff=eand"><button className="ticket-button">Get Tickets</button></a>
       </div>
       <div className="component-footer">
         <div className="fill">
