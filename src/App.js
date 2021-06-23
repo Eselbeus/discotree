@@ -20,9 +20,9 @@ function App() {
       <Nav />
       <Home />
       <WhatWeDo />
+      <About />
       <Events />
       <WhyUs />
-      <About />
       <Gallery />
       <Contact />
       <Footer />

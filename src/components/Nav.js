@@ -38,7 +38,7 @@ class Nav extends React.Component {
       <nav className='hamburgerDropDown nav-mobile'>
         <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="home" spy={true} smooth={true} offset={-16} duration={250}>HOME</Link>
         <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="whatwedo" spy={true} smooth={true} offset={-16} duration={250}>WHAT WE DO</Link>
-        <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="about" spy={true} smooth={true} offset={-16} duration={250}>ABOUT</Link>
+        <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="about" spy={true} smooth={true} offset={-16} duration={250}>PRESS</Link>
         <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="events" spy={true} smooth={true} offset={-16} duration={250}>EVENTS</Link>
         <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="whyus" spy={true} smooth={true} offset={-16} duration={250}>WHY US</Link>
         <Link className="nav-elem" activeClass="active" onClick={this.handleClick.bind(this)} to="gallery" spy={true} smooth={true} offset={-16} duration={250}>GALLERY</Link>
@@ -54,7 +54,7 @@ class Nav extends React.Component {
           <Link className="nav-elem nav-logos" activeClass="active" to="home" spy={true} smooth={true} offset={-128} duration={250}><img className="nav-logo" src={logo2}/></Link>
           <Link className="nav-elem" activeClass="active" to="home" spy={true} smooth={true} offset={-128} duration={250}>HOME</Link>
           <Link className="nav-elem" activeClass="active" to="whatwedo" spy={true} smooth={true} offset={-128} duration={250}>WHAT WE DO</Link>
-          <Link className="nav-elem" activeClass="active" to="about" spy={true} smooth={true} offset={-128} duration={250}>ABOUT</Link>
+          <Link className="nav-elem" activeClass="active" to="about" spy={true} smooth={true} offset={-128} duration={250}>PRESS</Link>
           <Link className="nav-elem" activeClass="active" to="events" spy={true} smooth={true} offset={-128} duration={250}>EVENTS</Link>
           <Link className="nav-elem" activeClass="active" to="whyus" spy={true} smooth={true} offset={-128} duration={250}>WHY US</Link>
           <Link className="nav-elem" activeClass="active" to="gallery" spy={true} smooth={true} offset={-128} duration={250}>GALLERY</Link>

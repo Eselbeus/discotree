@@ -418,3 +418,11 @@
     width: 310px;
   }
 }
+
+.press {
+  color: white;
+}
+
+.press:hover {
+  color: #f87605;
+}
