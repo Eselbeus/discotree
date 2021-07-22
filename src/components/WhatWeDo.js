@@ -58,8 +58,8 @@ class WhatWeDo extends React.Component {
       <div className='whatwedo' id='whatwedo'>
         <div className="whatwedo-text-container">
           <h1 className="header-text">DISCO TREE</h1>
-          <p className="whatwedo-intro">Disco Tree was created during the Covid-19 pandemic. The idea was to create an outdoor space so that artists could perform while still being socially distant. The show started as an open mic and grew into a bigger show featuring professional comedians, musicians, dancers, and performance artists from New York City.</p>
-          <p className="whatwedo-intro">Disco Tree specializes in live outdoor events. We use the latest in portable sound and lighting equipment to change outdoor environments into performance spaces. Like a tree, each Disco Tree event is different and unique. The events range from live music, stand-up and dance parties.</p>
+          <p className="whatwedo-intro">Disco Tree was created during the Covid-19 pandemic. The founder's vision was to create an outdoor space where artists could perform and bring community together while still being socially distanced. Disco Tree started as an open mic and evolved into a spectacular variety show featuring professional comedians, musicians, dancers, circus acts, and a bevy of artists from New York City.</p>
+          <p className="whatwedo-intro">Disco Tree specializes in live outdoor events. We use the latest in portable sound and lighting and DJ equipment to transform any outdoor space into an immersive environment. Just like trees in the natural world each Disco Tree event is different and unique.</p>
         </div>
         <div className="whatwedo-photo-wrapper">
           <div className="whatwedo-photo-container">
